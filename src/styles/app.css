@@ -8,3 +8,11 @@
   width: 500px;
   height: 300px;
 }
+
+@media screen and (max-width: 600px) {
+  .nasa-img {
+    margin: auto;
+    width: 300px;
+    height: 180px;
+  }
+}

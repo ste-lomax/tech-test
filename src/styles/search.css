@@ -6,15 +6,28 @@
     justify-content: center;
   }
 
+
 .search-input {
     margin: 2px;
-    width: 20%;
+    width: 25%;
     height: 50px;
     border-radius: 12px;
     font-size: 20px;
     padding: 0 10px;
     font-family: Orbitron;
   }
+
+@media screen and (max-width: 1000px) {
+  .search-input {
+    width: 40%;
+  }
+}  
+
+@media screen and (max-width: 600px) {
+  .search-input {
+    width: 50%;
+  }
+}
 
 .search-button {
     margin: 2px;
